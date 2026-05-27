@@ -54,3 +54,28 @@ This project was developed for the **AN2DL – First Homework**. The goal is to 
 | Final model    | 98.75            | 85.00            |
 
 ## Repository Structure
+
+
+## How to Run
+
+1. Clone the repository  
+2. Install dependencies: `pip install -r requirements.txt`  
+3. Place dataset in `data/` folder  
+4. Run `python train.py --model efficientnetv2m --aug randaugment`
+
+## Dependencies
+
+- Python 3.8+
+- TensorFlow / Keras
+- NumPy, pandas, scikit-learn
+- matplotlib, seaborn
+
+## Authors
+
+- Mehrshad Alipoor  
+- Giovanni Annaloro  
+- Maurizio Tirabassi  
+
+## License
+
+Academic use only – see report for details.
